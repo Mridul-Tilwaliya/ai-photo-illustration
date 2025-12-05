@@ -16,7 +16,7 @@ The application follows a decoupled client-server architecture:
   - Chosen for its state-of-the-art identity preservation capabilities without requiring heavy local GPU resources for this prototype.
 
 ### Architecture Diagram
-```mermaid
+```
 graph LR
     User[User] -->|Uploads Photo| Client[Next.js Frontend]
     Client -->|POST /generate| Server[FastAPI Backend]
